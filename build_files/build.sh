@@ -11,7 +11,7 @@ set -ouex pipefail
 
 dnf5 -y remove plasma-workspace plasma-* kde-*
 
-dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 config-manager --set-enabled terra  
 dnf5 config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo
 dnf5 config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 
