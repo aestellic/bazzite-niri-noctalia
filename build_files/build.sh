@@ -17,18 +17,15 @@ dnf5 config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3
 dnf5 -y install 		\
 	niri			\
 	ghostty			\
-	xdg-desktop-portal-gtk	\
 	gnome-keyring		\
 	dolphin			\
 	xwayland-satellite	\
 	noctalia-shell		\
 	librewolf		\
-	ddcutil			\
 	ark			\
 	mako			\
-	unzip			\
-	unrar			\
 	mpv			\
+	unrar			\
 	
 # Use a COPR Example:
 #
