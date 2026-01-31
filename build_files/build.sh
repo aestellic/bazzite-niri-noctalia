@@ -27,6 +27,9 @@ dnf5 -y install 		\
 	mako			\
 	mpv			\
 	unrar			\
+	gdm			\
+	xdg-desktop-portal-gtk	\
+	xdg-desktop-portal-gnome
 	
 # Use a COPR Example:
 #
