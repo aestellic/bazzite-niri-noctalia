@@ -29,7 +29,6 @@ dnf5 -y install 				\
 	unrar						\
 	gdm							\
 	xdg-desktop-portal-gtk		\
-	xdg-desktop-portal-gnome	\
 	cifs-utils					\
 	gvfs						\
 	gvfs-fuse					\
