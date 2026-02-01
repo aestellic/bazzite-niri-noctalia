@@ -15,21 +15,28 @@ dnf5 config-manager setopt terra.enabled=1
 dnf5 config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo
 dnf5 config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 
-dnf5 -y install 		\
-	niri			\
-	ghostty			\
-	gnome-keyring		\
-	dolphin			\
-	xwayland-satellite	\
-	noctalia-shell		\
-	librewolf		\
-	ark			\
-	mako			\
-	mpv			\
-	unrar			\
-	gdm			\
-	xdg-desktop-portal-gtk	\
-	xdg-desktop-portal-gnome
+dnf5 -y install 				\
+	niri						\
+	ghostty						\
+	gnome-keyring				\
+	dolphin						\
+	xwayland-satellite			\
+	noctalia-shell				\
+	librewolf					\
+	ark							\
+	mako						\
+	mpv							\
+	unrar						\
+	gdm							\
+	xdg-desktop-portal-gtk		\
+	xdg-desktop-portal-gnome	\
+	cifs-utils					\
+	gvfs						\
+	gvfs-fuse					\
+	gvfs-nfs					\
+	gvfs-smb					\
+	gvfs-mtp					\
+	
 	
 # Use a COPR Example:
 #
