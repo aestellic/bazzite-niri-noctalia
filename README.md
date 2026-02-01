@@ -14,8 +14,16 @@ This is a custom image of Bazzite which uses Niri as the wayland compositor and 
     - DDCUtil (brightness control)
  - Ghostty (terminal)
  - Dolphin (file manager)
+    - kio-fuse
+	   - kio-extras	
+	   - dolphin-plugins
+    - audiocd-kio
+    - kimageformats
+    - kdegraphics-thumbnailers
+    - ffmpegthumbs
+    - icoutils
+    - taglib
  - Ark (archive manager)
     - Unrar
  - Gnome Desktop Manager
- - Gnome Virtual File System
  - Librewolf (browser)
