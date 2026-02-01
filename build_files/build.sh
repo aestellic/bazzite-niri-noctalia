@@ -31,12 +31,15 @@ dnf5 -y install 				\
 	xdg-desktop-portal-gtk		\
 	xdg-desktop-portal-gnome	\
 	cifs-utils					\
-	gvfs						\
-	gvfs-fuse					\
-	gvfs-nfs					\
-	gvfs-smb					\
-	gvfs-mtp					\
 	kio-fuse					\
+	kio-extras					\
+	dolphin-plugins				\
+	audiocd-kio					\
+	kimageformats				\
+	kdegraphics-thumbnailers	\
+	ffmpegthumbs				\
+	icoutils					\
+	taglib						\
 	cliphist					\
 	ddcutil						\
 	polkit-kde					\
