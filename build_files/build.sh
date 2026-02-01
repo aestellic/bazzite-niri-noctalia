@@ -29,6 +29,7 @@ dnf5 -y install 				\
 	unrar						\
 	gdm							\
 	xdg-desktop-portal-gtk		\
+	xdg-desktop-portal-gnome	\
 	cifs-utils					\
 	gvfs						\
 	gvfs-fuse					\
@@ -38,7 +39,8 @@ dnf5 -y install 				\
 	kio-fuse					\
 	cliphist					\
 	ddcutil						\
-	polkit-kde	
+	polkit-kde					\
+	gnome-keyring
 
 
 # Use a COPR Example:
