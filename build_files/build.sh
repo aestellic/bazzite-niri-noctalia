@@ -39,10 +39,7 @@ dnf5 -y install 				\
 	kio-fuse					\
 	cliphist					\
 	ddcutil						\
-	polkit-kde					\
-	swayidle					\
-	
-	
+	polkit-kde					\	
 	
 # Use a COPR Example:
 #
@@ -55,5 +52,4 @@ dnf5 -y install 				\
 
 systemctl enable podman.socket
 systemctl --global add-wants niri.service mako.service
-systemctl --global add-wants niri.service swayidle.service
 systemctl --global add-wants niri.service plasma-polkit-agent.service
