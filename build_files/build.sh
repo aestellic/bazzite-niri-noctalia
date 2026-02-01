@@ -36,6 +36,12 @@ dnf5 -y install 				\
 	gvfs-nfs					\
 	gvfs-smb					\
 	gvfs-mtp					\
+	kio-fuse					\
+	cliphist					\
+	ddcutil						\
+	polkit-kde					\
+	swayidle					\
+	
 	
 	
 # Use a COPR Example:
@@ -48,3 +54,6 @@ dnf5 -y install 				\
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl --global add-wants niri.service mako.service
+systemctl --global add-wants niri.service swayidle.service
+systemctl --global add-wants niri.service plasma-polkit-agent.service
