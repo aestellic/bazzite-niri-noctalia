@@ -35,7 +35,7 @@ dnf5 -y install 				\
 	kio-extras					\
 	dolphin-plugins				\
 	audiocd-kio					\
-	kimageformats				\
+	kf5-imageformats			\
 	kdegraphics-thumbnailers	\
 	ffmpegthumbs				\
 	icoutils					\
