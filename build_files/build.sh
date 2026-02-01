@@ -39,8 +39,9 @@ dnf5 -y install 				\
 	kio-fuse					\
 	cliphist					\
 	ddcutil						\
-	polkit-kde					\	
-	
+	polkit-kde	
+
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
